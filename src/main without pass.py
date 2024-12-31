@@ -30,10 +30,10 @@ while wlan.isconnected() == False:
   pass
 
 # MQTT client setup
-server = b"a2c31446a2f648959e80ad9cb225fb2f.s1.eu.hivemq.cloud"
+server = b""
 port = 8883 # this port uses secure MQTT with SSL/TLS
-mqtt_user = "adam1"
-mqtt_pass = b'Absolutneguwno666!'
+mqtt_user = ""
+mqtt_pass = b''
 topic_pub = b'hello'
 topic = "button_pressed"
 topic_initiate = "initiate"
